@@ -72,11 +72,20 @@ section{
 
     div{
         border: solid 6px yellow;
-        height: 40vh;
+        height: 50vh;
         width: 30vw;
 
         h1{
             font-family: "Nunito", sans-serif;
+            font-size: 3rem;
         }
     }
+}
+button{
+    background-color: #FCA60F;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 0.5rem;
+    border: none;
+    color: blanchedalmond;
 }
