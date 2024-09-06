@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 78vh;
+}
+
 header {
   padding: 0 10%;
   display: flex;
@@ -25,9 +36,9 @@ header {
   header {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 15vh;
+    height: 14vh;
   }
 }
 @media (max-width: 412px) {
@@ -50,7 +61,6 @@ header ul {
     display: flex;
     width: 60vw;
     justify-content: space-around;
-    align-items: center;
   }
 }
 @media (max-width: 412px) {
@@ -64,30 +74,111 @@ header ul {
 header ul li {
   list-style: none;
 }
+@media (max-width: 430px) {
+  header ul li {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+  }
+}
+
+@media (max-width: 430px) {
+  nav {
+    height: 30vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 section {
-  border: solid 6px blue;
   display: flex;
-  width: 100vw;
-  height: 90vh;
   align-items: center;
   justify-content: space-around;
 }
+@media (max-width: 430px) {
+  section {
+    flex-direction: column;
+  }
+}
 section div {
-  border: solid 6px yellow;
   height: 50vh;
   width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media (max-width: 430px) {
+  section div {
+    height: 30vh;
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 section div h1 {
-  font-family: "Nunito", sans-serif;
   font-size: 3rem;
+  font-weight: 700;
+}
+@media (max-width: 430px) {
+  section div h1 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 button {
   background-color: #FCA60F;
-  width: 15vw;
-  height: 5vh;
-  border-radius: 0.5rem;
+  width: 11vw;
+  height: 7vh;
+  border-radius: 0.3rem;
   border: none;
   color: blanchedalmond;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+@media (max-width: 430px) {
+  button {
+    width: 12rem;
+    height: 3rem;
+  }
+}
+
+figure {
+  display: flex;
+  width: 8vw;
+  justify-content: space-around;
+}
+
+@media (max-width: 430px) {
+  .container-redes {
+    width: 40vw;
+  }
+}
+.container-redes img {
+  width: 20%;
+}
+@media (max-width: 430px) {
+  .container-redes img {
+    width: 15%;
+  }
+}
+
+@media (max-width: 430px) {
+  .copo {
+    width: 80vw;
+  }
+}
+
+footer {
+  background-color: rgb(12, 11, 11);
+  color: blanchedalmond;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
