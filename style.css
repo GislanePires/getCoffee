@@ -63,4 +63,21 @@ header ul {
 }
 header ul li {
   list-style: none;
+}
+
+section {
+  border: solid 6px blue;
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  align-items: center;
+  justify-content: space-around;
+}
+section div {
+  border: solid 6px yellow;
+  height: 40vh;
+  width: 30vw;
+}
+section div h1 {
+  font-family: "Nunito", sans-serif;
 }/*# sourceMappingURL=style.css.map */
