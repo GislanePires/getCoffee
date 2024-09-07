@@ -10,6 +10,7 @@ main{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 78vh;
 }
 header{
@@ -84,10 +85,10 @@ nav{
 }
 section{
     display: flex;
-    // width: 98vw;
-    // height: 20vh;
+    width: 60vw;
     align-items: center;
     justify-content: space-around;
+    // padding: 
     @media(max-width:430px){
         flex-direction: column;
     }
