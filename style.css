@@ -105,7 +105,7 @@ section {
   }
 }
 section div {
-  height: 50vh;
+  height: 40vh;
   width: 30vw;
   display: flex;
   flex-direction: column;
@@ -121,7 +121,7 @@ section div {
   }
 }
 section div h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 @media (max-width: 430px) {
@@ -140,7 +140,7 @@ button {
   border-radius: 0.3rem;
   border: none;
   color: blanchedalmond;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 @media (max-width: 430px) {
@@ -174,13 +174,4 @@ figure {
   .copo {
     width: 80vw;
   }
-}
-
-footer {
-  background-color: rgb(12, 11, 11);
-  color: blanchedalmond;
-  height: 10vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
